@@ -1,0 +1,32 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+gunicorn==23.0.0
+
+# Validation / settings
+pydantic==2.10.4
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# PostgreSQL — async driver, raw SQL only (no ORM)
+asyncpg==0.30.0
+
+# Migrations — Alembic runs hand-written raw-SQL scripts
+alembic==1.14.0
+SQLAlchemy==2.0.36
+greenlet==3.1.1
+
+# Redis (cache + arq broker)
+redis==5.2.1
+
+# Background jobs — async-native, backed by Redis
+arq==0.26.3
+
+# Auth
+pyjwt==2.10.1
+bcrypt==4.2.1
+
+# --- Test ---
+pytest==8.4.2
+pytest-asyncio==1.4.0
+httpx==0.28.1

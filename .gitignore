@@ -1,0 +1,11 @@
+.env
+venv
+.venv
+.idea
+.vscode
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude
+cloude.md
+task.txt
